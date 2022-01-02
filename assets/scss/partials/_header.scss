@@ -1,0 +1,59 @@
+.kf-header {
+    background-color: transparent;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 99;
+    transition: all 0.3s ease-in-out;
+    &.solid{
+        background-color: $white;
+        position: fixed;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+        .navbar-brand {
+            color : $brand-color;
+        }
+        .nav-link {
+            color: $brand-color !important;
+        }   
+    }
+    .navbar{
+        padding: 0;
+        &-brand {
+            max-width: 150px;
+            padding: 0;
+            font-family: $raleway;
+            text-transform: capitalize;
+            font-size: $medium1;
+            color: $white;
+            @media(max-width:320px){
+                max-width: 100px;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        &-collapse{
+            justify-content: flex-end;
+        }
+        &-nav {
+
+        }
+    }
+
+    .nav {
+        &-item {
+            margin-right: 30px;
+        }
+        &-link {
+            padding: 25px;
+            font-size: $regular;
+            line-height: $regular;
+            letter-spacing: 0;
+            color: $white !important;
+            font-weight: 600;
+            &:hover {
+            }
+        }
+    }
+}

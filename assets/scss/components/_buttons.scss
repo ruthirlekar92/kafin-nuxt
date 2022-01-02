@@ -1,0 +1,35 @@
+.kf__btn {
+    padding: 15px 50px;
+    border-radius: 0;
+    outline: none;
+    text-transform: uppercase;
+    font-family: $roboto;
+    font-size: $regular;
+    line-height: $regular;
+    transition: all 300ms ease-in-out;
+    margin: 15px  auto;
+    width: 150px;
+    cursor: pointer;
+    &.link {
+        display: block;
+        text-decoration: none;
+    }
+    &.white {
+        background-color: transparent;
+        color: $white;
+        border: 2px solid $white;
+        &:hover, &:focus {
+            background-color: $white;
+            color: $black;
+        }
+    }
+    &.cyan {
+        background-color: $brand-color;
+        color: $white;
+        border: 2px solid $brand-color;
+        &:hover, &:focus {
+            background-color: $white;
+            color: $brand-color;
+        }
+    }
+}
