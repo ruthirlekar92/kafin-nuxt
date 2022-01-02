@@ -54,25 +54,27 @@
         }
       }
     }
-    .social {
-      &__list {
-        display: flex;
-        list-style: none;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-        &--item {
-          margin-right: 15px;
-          display: block;
-          a {
-            color: #617272;
-            font-size: $medium1;
-            &:hover,
-            &:focus {
-              color: $white;
-            }
-          }
+    
+  }
+}
+
+.social {
+  &__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    &--item {
+      margin-right: 15px;
+      display: block;
+      a {
+        color: #617272;
+        font-size: $medium1;
+        &:hover,
+        &:focus {
+          color: $white;
         }
       }
     }

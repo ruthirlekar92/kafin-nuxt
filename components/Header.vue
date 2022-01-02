@@ -3,7 +3,6 @@
     <div class="container">
       <b-navbar toggleable="lg" type="dark">
         <b-navbar-brand href="#">
-          <!-- <img src="~/static/kafinnew.png" alt="" /> -->
           missioncoffeeusa
         </b-navbar-brand>
 

@@ -5,10 +5,30 @@
     color: $light-brown;
 }
 
+.dark-brown{
+    color: $brand-color;
+}
+
 .gray2 {
     color: $gray2;
 }
 
 .text-center{
     text-align: center;
+}
+
+.section {
+    padding: 60px 0;
+    &__title {
+
+    }
+    &__image {
+        width: 100%;
+        height: 500px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 }

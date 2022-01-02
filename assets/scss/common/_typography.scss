@@ -1,52 +1,64 @@
 a {
-    font-family: $raleway;
-    text-decoration: none;
+  font-family: $raleway;
+  text-decoration: none;
 }
 
 h1 {
-    font-family: $raleway;
-    font-size: $xl;
-    font-weight: 400;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
+  font-family: $raleway;
+  font-size: $xl;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 h2 {
-    font-family: $raleway;
-    font-size: $large;
-    font-weight:500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal; 
+  font-family: $raleway;
+  font-size: $large;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+//   &::after {
+//     content: "";
+//     border-bottom: 4px solid #d8a740;
+//     position: relative;
+//     width: 100px;
+//     display: block;
+//     margin-top: 34px;
+//   }
 }
 
 h3 {
-    font-family: $raleway;
-    font-size: $medium1;
-    font-weight: 400;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
+  font-family: $raleway;
+  font-size: $medium1;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
-h4{
-    font-family: $raleway;
-    font-size: $medium1;
-    line-height: 1;
-    font-weight: 400;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
+h4 {
+  font-family: $raleway;
+  font-size: $medium1;
+  line-height: 1;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
 }
 
 p {
-    font-family: $raleway;
-    font-size: $small;
-    line-height: 28px;
-    letter-spacing: 1px;
-    margin: 15px 0 0 0;
+  font-family: $raleway;
+  font-size: $small;
+  // font-size:1.6rem !important;
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin: 15px 0 0 0;
+  line-height: 25px;
+  font-weight: 400;
+  color: #666d78;
 }
